@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+h2, h3 {
+  color: #00796b;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background: #00796b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #004d40;
+}
+
+pre {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}

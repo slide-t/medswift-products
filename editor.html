@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Local JSON Product Editor</title>
+  <link rel="stylesheet" href="editor.css" />
+</head>
+<body>
+
+  <h2>Add New Product</h2>
+  <form id="product-form">
+    <input type="text" id="name" placeholder="Product Name" required />
+    <input type="text" id="description" placeholder="Description" required />
+    <input type="text" id="price" placeholder="Price (e.g. ₦1500)" required />
+    <input type="url" id="image" placeholder="Image URL" required />
+    <button type="submit">Add Product</button>
+  </form>
+
+  <button id="download-btn">Download JSON</button>
+
+  <h3>Product Preview</h3>
+  <pre id="json-output"></pre>
+
+  <script src="editor.js"></script>
+</body>
+</html>
